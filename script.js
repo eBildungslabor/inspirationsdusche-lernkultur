@@ -28,7 +28,7 @@ function neuerZufallsimpuls() {
     // Den zufälligen Impuls auswählen
     const randomImpuls = impulseListe[randomIndex];
     // Den Impuls im HTML anzeigen
-    document.getElementById('article').innerText = randomImpuls;
+    document.getElementById('article').textContent = randomImpuls;
 }
 
 // Den Event Listener zum Button hinzufügen
